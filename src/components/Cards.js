@@ -18,13 +18,13 @@ function Cards() {
               src={img1}
               text="Find a beautiful jungle woman or a waterfall in the Amazon!"
               label="Adventure"
-              path="/services"
+              path="/products"
             />
             <CardItem
               src={img2}
               text="Go on a private cruise and search for dolphins in the Bahamas!"
               label="Luxury"
-              path="/services"
+              path="/products"
             />
           </ul>
           <ul className="cards__items">
@@ -32,19 +32,19 @@ function Cards() {
               src={img3}
               text="Get lost in the Atlantic Ocean with the lover that you don't have!"
               label="Mystery"
-              path="/services"
+              path="/products"
             />
             <CardItem
               src={img4}
               text="Play fútbol with Cristiano Ronaldo, Messi, and the Fortnite soccer girl on a hidden island!"
               label="Adventure"
-              path="/services"
+              path="/products"
             />
             <CardItem
               src={img5}
               text="Search for the origins of Duel Monsters in the deserts of Egypt!"
               label="Adrenaline"
-              path="/sign-up"
+              path="/products"
             />
           </ul>
         </div>
