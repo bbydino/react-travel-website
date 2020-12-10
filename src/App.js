@@ -10,10 +10,10 @@ import SignUp from "./components/pages/SignUp";
 function App() {
   return (
     <>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Navbar />
         <Switch>
-          <Redirect from="/react-travel-website" to="/home" />
+          <Redirect exact from="/" to="/home" />
           <Route path="/home" exact component={Home} />
           <Route path="/services" component={Services} />
           <Route path="/products" component={Products} />

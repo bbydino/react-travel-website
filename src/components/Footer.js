@@ -64,7 +64,7 @@ function Footer() {
       <section class="social-media">
         <div class="social-media-wrap">
           <div class="footer-logo">
-            <Link to="/" className="social-logo">
+            <Link to="/home" className="social-logo">
               Travel
               <i class="fab fa-typo3" />
             </Link>
