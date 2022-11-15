@@ -25,9 +25,9 @@ function Footer() {
           </form>
         </div>
       </section>
-      <div class="footer-links">
+      <div className="footer-links">
         <div className="footer-link-wrapper">
-          <div class="footer-link-items">
+          <div className="footer-link-items">
             <h2>About Us</h2>
             <Link to="/sign-up">How it works</Link>
             <Link to="/home">Testimonials</Link>
@@ -35,7 +35,7 @@ function Footer() {
             <Link to="/home">Investors</Link>
             <Link to="/home">Terms of Service</Link>
           </div>
-          <div class="footer-link-items">
+          <div className="footer-link-items">
             <h2>Contact Us</h2>
             <Link to="/services">Contact</Link>
             <Link to="/services">Support</Link>
@@ -44,14 +44,14 @@ function Footer() {
           </div>
         </div>
         <div className="footer-link-wrapper">
-          <div class="footer-link-items">
+          <div className="footer-link-items">
             <h2>Videos</h2>
             <Link to="/sign-up">Submit Video</Link>
             <Link to="/sign-up">Ambassadors</Link>
             <Link to="/sign-up">Agency</Link>
             <Link to="/sign-up">Influencer</Link>
           </div>
-          <div class="footer-link-items">
+          <div className="footer-link-items">
             <h2>Social Media</h2>
             <a href={fb}>Facebook</a>
             <a href={insta}>Instagram</a>
@@ -61,33 +61,33 @@ function Footer() {
           </div>
         </div>
       </div>
-      <section class="social-media">
-        <div class="social-media-wrap">
-          <div class="footer-logo">
+      <section className="social-media">
+        <div className="social-media-wrap">
+          <div className="footer-logo">
             <Link to="/home" className="social-logo">
               Travel
-              <i class="fab fa-typo3" />
+              <i className="fab fa-typo3" />
             </Link>
           </div>
-          <small class="website-rights">Travel © 2020</small>
-          <div class="social-icons">
-            <a href={fb} target="blank" class="social-icon-link facebook" aria-label="Facebook">
-              <i class="fab fa-facebook-f" />
+          <small className="website-rights">Travel © 2020</small>
+          <div className="social-icons">
+            <a href={fb} target="blank" className="social-icon-link facebook" aria-label="Facebook">
+              <i className="fab fa-facebook-f" />
             </a>
-            <a href={soundcloud} target="blank" class="social-icon-link soundcloud" aria-label="SoundCloud">
-              <i class="fab fa-soundcloud" />
+            <a href={soundcloud} target="blank" className="social-icon-link soundcloud" aria-label="SoundCloud">
+              <i className="fab fa-soundcloud" />
             </a>
-            <a href={insta} target="blank" class="social-icon-link instagram" aria-label="Instagram">
-              <i class="fab fa-instagram" />
+            <a href={insta} target="blank" className="social-icon-link instagram" aria-label="Instagram">
+              <i className="fab fa-instagram" />
             </a>
-            <a href={youtube} target="blank" class="social-icon-link youtube" aria-label="Youtube">
-              <i class="fab fa-youtube" />
+            <a href={youtube} target="blank" className="social-icon-link youtube" aria-label="Youtube">
+              <i className="fab fa-youtube" />
             </a>
-            <a href={twitter} target="blank" class="social-icon-link twitter" aria-label="Twitter">
-              <i class="fab fa-twitter" />
+            <a href={twitter} target="blank" className="social-icon-link twitter" aria-label="Twitter">
+              <i className="fab fa-twitter" />
             </a>
-            <a href={linkedin} target="blank" class="social-icon-link linkedin" aria-label="LinkedIn">
-              <i class="fab fa-linkedin" />
+            <a href={linkedin} target="blank" className="social-icon-link linkedin" aria-label="LinkedIn">
+              <i className="fab fa-linkedin" />
             </a>
           </div>
         </div>
